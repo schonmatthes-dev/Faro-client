@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "faroclient",
+  "version": "1.0.0",
+  "name": "Faro Client",
+  "description": "Faro Client - Module-Menue (Right Shift)",
+  "environment": "client",
+  "entrypoints": { "client": ["com.faro.client.FaroClient"] },
+  "mixins": ["faroclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
